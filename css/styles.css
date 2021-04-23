@@ -95,5 +95,136 @@ nav {
 
 .icons-section {
   margin-top: 6em;
+  color: #fff;
+  text-align: center;
+}
+
+.icon-img {
+  width: 20%;
+}
+.icon {
+  margin: 10em 2em;
+}
+
+.access,
+.security,
+.real {
+  margin-bottom: 7em;
+}
+
+.access-title,
+.security-title,
+.real-title,
+.store-title {
+ padding: 1.5em 0 .5em;
+}
+
+.access-desc,
+.security-desc,
+.real-desc,
+.stor-desc {
+  line-height: 1.6;
+}
+
+.stay-productive-section {
+  margin: 0 1em;
+}
+
+.stay-productive-title,
+.stay-productive-desc,
+.stay-productive-desc2 {
+  color: #fff;
+  padding-top: 1.5em;
+}
+
+.stay-productive-desc2  {
+  margin-bottom: 2em;
+}
+
+.fylo {
+  text-decoration: none;
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 6em;
+}
+
+.arrow {
+  width: 15px;
+  margin: 2px 5px 2em;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.rv-img,
+.qt-img {
+  width: 50px;
+}
+
+.reviews {
+  color: #fff;
+  margin: 0 2em;
+}
+
+.review-one,
+.review-two,
+.review-three {
+  background: #333;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.rv-img {
+  border-radius: 50%;
+  margin-top: 1em;
+}
+
+.img-section {
+  display: flex;
+  align-items: c;
+}
+
+.get-section {
+  color: #fff;
+  margin: 10em 2em;
+  border-radius: 5px;
+  padding: 1em;
+  background: #333;
+}
+
+.btn-section {
+  display: flex;
+  flex-direction: column ;
+}
+
+.get {
+  margin: 1em 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.get-desc {
+  margin: 1em 0;
+}
+
+.email-btn,
+.get-btn {
+  padding: 1.25em 3em;
+  border-radius: 3em;
+  border: none;
+}
+
+.email-btn{
+  text-align: left;
+  color: rgb(158, 161, 161);
+  background: #fff;
+  margin: 1.5em 0;
+}
+
+.get-btn {
+  font-size: .70rem;
+  color: #fff;
+  background: rgb(59, 175, 233);
 }
 
