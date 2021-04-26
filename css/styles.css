@@ -228,3 +228,65 @@ nav {
   background: rgb(59, 175, 233);
 }
 
+.fylo-logo {
+  width: 60%;
+  padding: 2em;
+}
+
+.ft-logo {
+  margin-bottom: -1em;
+}
+
+.icon-img {
+ width: 20px;
+ height: 20px;
+}
+
+.icons {
+  color: #fff;
+  padding: 0 2em;
+}
+
+.icon {
+  display: flex;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.icon-desc {
+  padding-left: 1.5em;
+}
+
+.footer-sec {
+  color: #fff;
+}
+
+.list-items,
+.list-items-sub {
+  padding: 2em;
+}
+
+.list-item,
+.list-item-sub {
+  margin-bottom: 1em;
+  text-transform: capitalize;
+}
+
+.socials {
+  text-align: center;
+}
+
+.social {
+  
+  margin: 3em 0;
+}
+
+.fab {
+  border: 1px solid #fff;
+  padding: .5em;
+  border-radius: 50%;
+  margin: 0 .5em;
+  width: 30px;
+  height: 30px;
+  
+}
