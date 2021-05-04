@@ -102,6 +102,7 @@ nav {
 .icon-img {
   width: 20%;
 }
+
 .icon {
   margin: 10em 2em;
 }
@@ -237,7 +238,7 @@ nav {
   margin-bottom: -1em;
 }
 
-.icon-img {
+.icon-img-ft {
  width: 20px;
  height: 20px;
 }
@@ -289,4 +290,123 @@ nav {
   width: 30px;
   height: 30px;
   
+}
+
+@media (min-width: 575px) {
+  .nav-logo {
+    max-width: 6em;
+  }
+
+  .hero-main {
+    padding-bottom: 0;
+  }
+
+  .hero {
+    background-image: url('../images/bg-curvy-mobile.svg');
+    background-position: bottom;
+    background-size: cover;
+    background-position-y: 250px;
+    margin: 0;
+  }
+
+  .hero-sub-section {
+    margin: 0 10em;
+    
+  }
+
+  .hero-img {
+    max-width: 60%;
+  }
+
+  .icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 3em;
+    font-size: .75rem;
+    align-items: center;
+  }
+
+  .icons-section {
+    margin: -3em 4em; 
+  }
+
+  .security,
+  .store,
+  .access,
+  .real  {
+    margin: 0;
+    padding: 3em;
+  }
+
+  .access {
+    margin-top: 2em;
+  }
+
+  .icon-img {
+    width: 20%;
+    height: auto;
+  }
+
+  .stay-productive-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3em 5em;
+  }
+
+  .stay-productive-sub {
+    margin-top: 2em;
+  }
+
+  .stay-pro-img {
+    width: 80%;
+  }
+
+  .review-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin: 0 3em;
+  }
+
+  .qt-img {
+    margin-top: 2em;
+  }
+
+ .btn-section {
+   display: grid;
+   grid-template-columns: 65% 35%;
+   gap: 1.5em;  
+ }
+
+ .get-section {
+   margin: 8em 12em;
+   padding: 2em 4em;
+ }
+
+ .email-btn {
+   margin: 0;
+ }
+
+ .fylo-logo {
+   width: 20%;
+ }
+
+ .footer-sec {
+   display: grid;
+   grid-template-columns: 30% 20% 15% 15% 15%;
+ }
+
+ .list-items,
+ .list-items-sub {
+   padding: 0;
+   margin-left: 2em;
+   margin-top: 1em;
+   
+ }
+
+ .socials {
+  margin-top: -25px;
+  padding: 0;
+ }
+
 }
