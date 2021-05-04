@@ -243,7 +243,8 @@ nav {
  height: 20px;
 }
 
-.icons-ft {
+.icons-ft,
+.ph-em-sec {
   color: #fff;
   padding: 0 2em;
 }
